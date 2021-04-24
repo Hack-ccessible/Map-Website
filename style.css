@@ -168,6 +168,11 @@ i{
 display: none;
 }
 @media screen and (max-width: 952px){
+    .nav-links{
+        display: none;
+    }
+}
+/* @media screen and (max-width: 952px){
     .nav-links ul li{
         display: block;
     }
@@ -199,7 +204,7 @@ display: none;
     }
    
 
-}
+} */
 @media screen and (max-width: 680px){
     .places{
         display: block;
