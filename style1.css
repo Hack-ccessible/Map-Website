@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/revato-294642-12389101-547186.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/empty-wooden-table-top-with-blurred-coffee-shop_7188-1337.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -82,8 +82,8 @@ nav img{
     background:#000;
     transition: 1s;
 }
-/*----hotels-----*/
-.hotels{
+/*----restaurants-----*/
+.restaurants{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -105,7 +105,7 @@ p{
     display: flex;
     justify-content:center; 
 }
-.hotels-col{
+.restaurants-col{
     flex-basis: 32%;
     background: #fff3f3;
     border-radius: 10px;
@@ -121,15 +121,15 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.hotels-col:hover{
+.restaurants-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-.hotels-col img{
+.restaurants-col img{
     background: transparent;
     width: 100%;
     transition:0.5s;
 }
-.hotels-col img:hover{
+.restaurants-col img:hover{
     background: rgba(226,0,0,0.7);
 }
 /*----footer-----*/
