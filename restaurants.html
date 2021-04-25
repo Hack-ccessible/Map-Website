@@ -10,14 +10,30 @@
 </head> 
 <body>
     <section class="header">
-        <nav>
-            <a href="mainpage.html"<img src="images/logo.png"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="mainpage.html">Home</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+       <nav>
+            
+            <div class="back"><img src="https://img.icons8.com/ios/40/ffffff/city-guide.png"/><a href="">PLACE TO VISIT</a></div>
+            
+            <div class="nav-links" id="navlinks">
+               <div class="btn"><i  class="fa fa-close" onclick="hidemenu()" ></i></div> 
+                   <ul>
+                       <li><a href="index.html"><i class="fa fa-home" ></i>Home</a></li>
+                       <li><a href="">Places<i class="fa fa-caret-square-o-down" ></i></a>
+                        <div class="sub-menu" onclick="show()" onclick="hide()" >
+                            <ul>
+                                <li><a href="">Hotels</a></li>
+                                <li><a href="">Restaurants</a></li>
+                                <li><a href="">Hospitals</a></li>
+                                <li><a href="">Tourist-Places</a></li>
+                            </ul>
+                        </div>
+                       </li>     
+                       <li><a href="">login/Sginup</a></li>
+                       <li><a href="">Contact us</a></li>
+                   </ul>
             </div>
+            <div class="btn btn1"><i  class="fa fa-bars" onclick="showmenu()"></i></div>
+        
         </nav>
 <div class="text-box">
     <h1>Restaurants<h1>
